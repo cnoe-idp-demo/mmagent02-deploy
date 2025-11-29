@@ -1,0 +1,9 @@
+agentName: mmagent02
+namespace: mmagent02
+imageRepo: 229560443702.dkr.ecr.us-west-2.amazonaws.com/mmagent02
+agentRuntime: AgentCore
+
+envs:
+  - name: dev
+    depends: None
+    cluster: cnoe-ref-impl
